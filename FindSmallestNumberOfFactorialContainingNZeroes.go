@@ -48,10 +48,10 @@ func HasTrailingZeros(p int, n int) bool {
 }
 
 func main() {
-	fmt.Println(findSmallestFactorialForNZeros(1))
-	fmt.Println(findSmallestFactorialForNZeros(6))
-	fmt.Println(findSmallestFactorialForNZeros(31))
-	fmt.Println(findSmallestFactorialForNZeros(156))
-	fmt.Println(findSmallestFactorialForNZeros(781))
-	fmt.Println(findSmallestFactorialForNZeros(3906))
+	fmt.Println(findSmallestFactorialForNZeros(1))    // expected output 5
+	fmt.Println(findSmallestFactorialForNZeros(6))    // expected output 25
+	fmt.Println(findSmallestFactorialForNZeros(31))   // expected output 125
+	fmt.Println(findSmallestFactorialForNZeros(156))  // expected output 625
+	fmt.Println(findSmallestFactorialForNZeros(781))  // expected output 3125
+	fmt.Println(findSmallestFactorialForNZeros(3906)) // expected output 15625
 }
